@@ -1,0 +1,432 @@
+body {
+  background-color: #000000;
+}
+
+.main {
+  width: 800px;
+  height: 800px;
+  background-color: rgb(138, 255, 36);
+  margin: 0 auto;
+  position: relative;
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: #8000ff;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.three {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: #8000ff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* =============================== */
+
+.flower {
+  width: 800px;
+  height: 800px;
+  background-color: #f3ff90;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+}
+
+.Rose {
+  width: 100px;
+  height: 100px;
+  background-color: #4a006f;
+  position: relative;
+}
+
+.Rose::after {
+  content: "";
+  width: 600px;
+  height: 10px;
+  background-color: #4a006f;
+  position: absolute;
+  top: 50%;
+  left: 100px;
+}
+
+.Rose::before {
+  content: "";
+  width: 600px;
+  height: 10px;
+  background-color: #4a006f;
+  position: absolute;
+  top: 35%;
+  left: 100px;
+}
+
+.Poppy {
+  width: 100px;
+  height: 100px;
+  background-color: #4a006f;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.Poppy::after {
+  content: "";
+  width: 10px;
+  height: 650px;
+  background-color: #4a006f;
+  position: absolute;
+  top: 100%;
+  right: 50px;
+}
+.Poppy::before {
+  content: "";
+  width: 10px;
+  height: 650px;
+  background-color: #4a006f;
+  position: absolute;
+  top: 100%;
+  right: 35px;
+}
+.tuberose {
+  width: 100px;
+  height: 100px;
+  background-color: #4a006f;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.tuberose::after {
+  content: "";
+  width: 640px;
+  height: 10px;
+  background-color: #4a006f;
+  position: absolute;
+  right: 100%;
+  top: 50px;
+}
+.tuberose::before {
+  content: "";
+  width: 640px;
+  height: 10px;
+  background-color: #4a006f;
+  position: absolute;
+  right: 100%;
+  top: 35px;
+}
+.fabaceae {
+  width: 100px;
+  height: 100px;
+  background-color: #4a006f;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.fabaceae::after {
+  content: "";
+  width: 10px;
+  height: 700px;
+  background-color: #4a006f;
+  position: absolute;
+  bottom: 100%;
+  left: 50px;
+}
+.fabaceae::before {
+  content: "";
+  width: 10px;
+  height: 700px;
+  background-color: #4a006f;
+  position: absolute;
+  bottom: 100%;
+  left: 35px;
+}
+
+/* ================================== */
+
+.bangladesh {
+  background-color: green;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+  display: block;
+}
+
+.flog {
+  width: 250px;
+  height: 250px;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line {
+  width: 20px;
+  height: 1200px;
+  background-color: #ffbb00;
+  position: relative;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: #000552;
+  top: 100%;
+  bottom: 0;
+  margin-left: -65px;
+  border: 4px solid rgb(0, 64, 142);
+}
+
+/* ================================= */
+
+.palestine {
+  background-color: darkgreen;
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 723px;
+  border: 2px solid rgba(255, 0, 0, 0.665);
+}
+.top {
+  background: black;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+.middle {
+  background: white;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
+}
+
+.triangle {
+  background: auto;
+  border-top: 300px solid transparent;
+  border-bottom: 300px solid transparent;
+  border-left: 300px solid red;
+  z-index: 2;
+  position: relative;
+  top: -400px;
+  left: 0;
+}
+
+.line2 {
+  width: 20px;
+  height: 1200px;
+  background-color: #ffbb00;
+  position: relative;
+  margin-top: -1002px;
+  z-index: 9999;
+  margin-left: -20px;
+}
+.line2::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: #000552;
+  top: 100%;
+  bottom: 0;
+  margin-left: -65px;
+  border: 4px solid rgb(0, 64, 142);
+}
+
+/* =================================== */
+
+.flag2{
+    background-color: rgb(0, 0, 0);
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 723px;
+    border: 2px solid rgba(255, 0, 0, 0.665);
+  
+ 
+}
+
+
+.black{
+  background: black;
+  width: 1000px;
+  height: 200px;
+  display: inline-block;
+    
+   
+ 
+}
+.red{
+  background: #FF0000;
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+    
+   
+ 
+}
+.gold{
+  background: #FFCC00;
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  margin-top: -7px; 
+   
+ 
+}
+
+.line3 {
+	width: 20px;
+	height: 1200px;
+	background-color: #ffbb00;
+	position: relative;
+	margin-top: -605px;
+	z-index: 9999;
+	margin-left: -15px;
+}
+.line3::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  background-color: #000552;
+  top: 100%;
+  bottom: 0;
+  margin-left: -65px;
+  border: 4px solid rgb(0, 64, 142);
+}
+
+
+/* ================================= */
+
+.brazil{
+    background-color: #00A859;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 723px;
+    position: relative;
+    
+}
+
+.yellow {
+	height: 400px;
+	width: 400px;
+	background-color: yellow;
+	transform: rotatey(-45deg);
+	position: absolute;
+	top: 17%;
+	left: 30%;
+	transform: rotate(45deg);
+	
+}
+.blue {
+	height: 250px;
+	width: 250px;
+	background-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+
+
+
+.line4{
+    width: 20px;
+	height: 1200px;
+	background-color: #ffbb00;
+	position: relative;
+	margin-top: -605px;
+	z-index: 9999;
+	margin-left: -15px; 
+}
+
+.line4::after{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: #000552;
+    top: 100%;
+    bottom: 0;
+    margin-left: -65px;
+    border: 4px solid rgb(0, 64, 142);
+}
+
+/* ==================================== */
+
+
+.italy {
+	background-color: #00A859;
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 1351px;
+}
+.green1{
+    background-color: #00A859;
+    width: 333px;
+    height: 600px;
+    display: inline-block;
+    float: left;
+      
+}
+.white2{
+    background-color: #ffffff;
+    width: 333px;
+    height: 600px;
+    display: inline-block;
+    float: left;
+      
+}
+.red3{
+    background-color: #ff0000;
+    width: 334px;
+    height: 600px;
+    display: inline-block;
+    float: left;
+      
+}
+
+.line8{
+    width: 20px;
+	height: 1200px;
+	background-color: #ffbb00;
+	position: relative;
+	margin-top: -605px;
+	z-index: 9999;
+	margin-left: -15px; 
+}
+.line8::after {
+	content: "";
+	position: absolute;
+	width: 150px;
+	height: 100px;
+	background-color: #000552;
+	top: 100%;
+	left: 0px;
+	margin-left: -65px;
+	border: 4px solid rgb(0, 64, 142);
+}
